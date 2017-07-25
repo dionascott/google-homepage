@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  border: 1px solid rgba(5, 0, 0, 0.5);
+}
+
+.header {
+  float: right;
+}
+
+.main {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#google {
+
+}
+
+#search {
+  height: 30px;
+  width: 400px;
+}
+
+#button-2 {
+  float: right;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+}
+
+#footer-left {
+  float: left;
+}
+
+#footer-right {
+  float: right;
+}
