@@ -1,11 +1,21 @@
 * {
   box-sizing: border-box;
-  border: 1px solid rgba(5, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+/*
+.header-links {
+  width: 100%;
 }
 
-.header {
+#header-links-images li {
   float: right;
 }
+
+#header-links-images a {
+  display: block;
+  padding: 10px;
+}
+*/
 
 .main {
   position: fixed;
@@ -14,28 +24,53 @@
   transform: translate(-50%, -50%);
 }
 
-#google {
+#logo {
+  height: 200px;
+}
 
+#google {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #search {
-  height: 30px;
-  width: 400px;
-}
-
-#button-2 {
-  float: right;
+  height: 40px;
+  width: 600px;
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
+  width: 100%;
+  background-color: #ddd;
 }
 
-#footer-left {
+#footer-left li {
   float: left;
+
 }
 
-#footer-right {
+#footer-left a {
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  color: black;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+#footer-right li {
   float: right;
+}
+
+#footer-right a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 10px;
+  color: black;
+  font-size: 12px;
+  font-weight: 100;
 }
